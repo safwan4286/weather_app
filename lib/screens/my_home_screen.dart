@@ -111,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   Text(
                     weatherList.weather?[0].description ?? '',
-                    style: const TextStyle(fontSize: 30, color: Colors.white),
+                    style: const TextStyle(fontSize: 20, color: Colors.white),
                   ),
                   const SizedBox(
                     height: 150,
