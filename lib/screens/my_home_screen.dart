@@ -36,13 +36,13 @@ class _MyHomePageState extends State<MyHomePage> {
           centerTitle: true,
           actions: [
             IconButton(
-              padding: const EdgeInsets.only(right: 20),
+              padding:  EdgeInsets.only(right: 20),
               onPressed: () {
                 showModalBottomSheet(
                   useSafeArea: true,
                   context: context,
                   builder: (context) => Container(
-                    padding: const EdgeInsets.all(20),
+                    padding:  EdgeInsets.all(20),
                     child: Column(
                       children: [
                         TextField(
@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                             Navigator.pop(context);
                           },
-                          child: const Text('Submit'),
+                          child: const  Text('Submit'),
                         )
                       ],
                     ),
